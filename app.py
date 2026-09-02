@@ -16,14 +16,14 @@ def get_asset_base64(path: str):
         return None
     return base64.b64encode(p.read_bytes()).decode("utf-8")
 
-LOGO_B64 = get_asset_base64("assets/logo.png")
+LOGO_B64 = get_asset_base64("logo.png")
 
 # ==============================================================================
 # CONFIGURATION DE LA PAGE
 # ==============================================================================
 st.set_page_config(
     page_title="BlueEye | Noor 1 WTP Intelligence System",
-    page_icon=str(Path("assets/icon.png")) if Path("assets/icon.png").exists() else "💧",
+    page_icon=str(Path("icon.png")) if Path("icon.png").exists() else "💧",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
