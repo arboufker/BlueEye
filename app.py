@@ -314,7 +314,7 @@ current_sync_time = datetime.now().strftime("%d/%m/%Y %H:%M")
 st.markdown(f"""
 <div class="carbon-header">
     <div class="header-row-top">
-        <div>MODULE DE SUPERVISION INDUSTRIELLE — CENTRALE NOOR 1 CSP (160 MW)</div>
+        <div>CENTRALE NOOR 1 CSP (160 MW)</div>
         <div>SYNCHRONISATION SYSTÈME : {current_sync_time}</div>
     </div>
     <div class="header-row-main">
