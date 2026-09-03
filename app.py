@@ -706,6 +706,6 @@ st.markdown(f"""
 <div class="industrial-footer">
     <div>BLUEEYE SYSTEM v2.4 · NOOR 1 WTP INTELLIGENCE</div>
     <div>DÉVELOPPÉ PAR ID ALI BOUFKER ABDERRAHIM (SUPTECH ENVIRONNEMENT) POUR NOMAC</div>
-    <div>SÉCURISÉ & CONFORME AUX PROTOCOLES INDUSTRIELS ACWA POWER</div>
+    <div>SÉCURISÉ</div>
 </div>
 """, unsafe_allow_html=True)
