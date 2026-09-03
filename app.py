@@ -302,7 +302,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ==============================================================================
-# EN-TÊTE PRINCIPAL HARMONISÉ (SANS AUTHENTIFICATION)
+# EN-TÊTE PRINCIPAL HARMONISÉ
 # ==============================================================================
 if LOGO_B64:
     brand_logo_html = f'<div class="header-logo-container"><img src="data:image/png;base64,{LOGO_B64}" alt="BlueEye"/></div>'
@@ -334,7 +334,7 @@ st.markdown(f"""
                 <span>Modèle de calcul</span>
                 <strong>Régression Linéaire (R² 70.6%)</strong>
             </div>
-            <div class="status-pill"><span class="status-dot"></span>ACTIF · NOMAC SECURE</div>
+            <div class="status-pill"><span class="status-dot"></span>ACTIF</div>
         </div>
     </div>
 </div>
